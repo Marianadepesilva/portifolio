@@ -42,7 +42,6 @@ header ul li a {
   text-decoration: none;
   transition: opacity .3s;
   font-weight: 500;
-  font-size: 18px;
 }
 
 header ul li a:hover{
