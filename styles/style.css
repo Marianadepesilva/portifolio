@@ -1,48 +1,50 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'poppins' ,sans-serif;
+  font-family: 'poppins' ,sans-serif;
 }
 
 img {
-    display: block;
-    max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 .container {
-    max-width: 1280px;
-    margin-inline: auto;
-    padding-inline: 32px;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 32px;
 }
 
 header {
-    background-color: #A6E3E9;
-    padding-block: 8px;
-    color: #fff;
+  background-color: #A6E3E9;
+  padding-block: 8px;
+  color: #fff;
 }
 
 header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header ul {
-    display: flex;
-    list-style: none;
-    gap: 16px;
+  display: flex;
+  list-style: none;
+  gap: 16px;
 }
 
 header ul li a {
-    color: #fff;
-    text-decoration: none;
-    transition: opacity .3s;
+  color: #fff;
+  text-decoration: none;
+  transition: opacity .3s;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 header ul li a:hover{
-    opacity: .8;
+  opacity: .8;
 }
